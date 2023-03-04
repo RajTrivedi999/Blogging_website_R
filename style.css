@@ -1,0 +1,98 @@
+*{
+    background-color: #111111;;
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E1E1E;
+    padding: 8px;
+    align-items: center;
+}
+.nav button{
+    font-size: 14px;
+    color: white;
+    background-color: #1E1E1E;
+    border: 1px solid #FFFFFF;
+    padding: 8px;
+}
+
+.nav p{
+    font-size: 14px;
+    color: white;
+    background-color: #1E1E1E;
+}
+.popup{
+    background-color: #FFFFFF;
+    width: 80vw;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    gap: 22px;
+    position: absolute;
+    top: 20vh;
+    left: 8vw;
+    z-index: 2;
+}
+.heading{
+    color:black;
+    font-weight: 1;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.createheading{
+    background-color: white;
+    height: 35px;
+    border: 1px solid;
+    padding-left: 10px;
+}
+.createpera{
+    background-color: white;
+    height: 120px;
+    border: 1px solid;
+    padding: 10px;
+}
+.createbutton{
+    background-color: white;
+    padding: 10px 10px;
+    border: 1px solid;
+    width: 180px;
+    margin-right: 15px;
+}
+.material-symbols-outlined{
+    background-color: #FFFFFF;
+    border: none;
+    position: absolute;
+    right: 10px;
+}
+
+.main{
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+}
+.hidePopup{
+    display: none;
+}
+
+.pblock{
+    color: #FFFFFF;
+    border:1px solid#FFFFFF ;
+    padding: 30px;
+    margin: 30px;
+}
+.pheading{
+    margin-bottom: 15px;
+}
+.ppera{
+    margin-bottom: 15px;
+}
+.pbutton{
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border: 1px solid;
+    width: 180px;
+    margin-right: 15px;
+}
