@@ -44,9 +44,9 @@
 }
 .createheading{
     background-color: white;
-    height: 35px;
+    height: 25px;
     border: 1px solid;
-    padding-left: 10px;
+    padding: 10px;
 }
 .createpera{
     background-color: white;
@@ -95,4 +95,15 @@
     border: 1px solid;
     width: 180px;
     margin-right: 15px;
+}
+.modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+}
+.myTime{
+    text-align: end;
 }
